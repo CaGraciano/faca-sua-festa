@@ -1,284 +1,258 @@
-<!doctype html>
+<!DOCTYPE html>
+<head>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-      <div class="container-fluid">
-        <form class="d-flex" role="search">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="Faça_sua_festa.png" alt="Logo" width="70" height="50" class="d-inline-block align-text-top mt-4">
-            </a>
-          </div>
-          <input class="form-control me-2 mt-4" type="search" placeholder="O que você procura?" aria-label="Pesquisar" height="">
-          <button class="btn btn-outline-success mt-4" style="background-color: blueviolet;" type="submit"><font color="white">Pesquisar</font></button>
-        </form>
-      </div>
-    </nav><br><br><br>
-    <center>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="banner1.jpeg" width= "300" height = "500" class="d-block w-100 bg-primary" alt="Primeiro slide">
-        </div>
-        <div class="carousel-item">
-          <img src="banner1.jpeg" width= "300" height = "500" class="d-block w-100" alt="Segundo Slide">
-        </div>
-        <div class="carousel-item">
-          <img src="banner1.jpeg" width= "300" height = "500" class="d-block w-100" alt="Terceiro Slide">
-        </div>
-      </div>
-      
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div><br><br><br>
+<link href="css/style.css" rel="stylesheet"/>
 
-  </center>
-  <!--FIM BANNER CARROSSEL-->
+<style>
+    .categorias{
+    width: 219px;
+    height: auto;
+    float: left;
+    margin-right: 8px; 
+    border:solid 1px #ccc;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
+    .categorias h2{
+     width: 208px;
+     height: 19px;
+     padding-left: 10px;
+     margin-bottom: 10px;
+     color: #fff;
+     font-size: 16px;
+    }
 
-  <!--COMEÇO ITENS-->
-  <div class="container text-center">
-    <div class="row row-cols-4">
-      <div class="col"><div class="card" style="width: 18rem;">
-  <img src="coca.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Coca-Cola</h5>
-    <font color="purple" type="Calibri">4,50</font>
-    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-  </div>
-  <!-- <ul class="list-group list-group-flush">
-    <li class="list-group-item">R$ 4,50</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-  </ul> -->
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div></div>
+    .categorias ul{
+        width: 219px;
+        list-style: none;
+    }
 
-      <div class="col"><div class="card" style="width: 18rem;">
-  <img src="coca.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div></div>
+    .categorias ul a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 8px;
+    }
 
-      <div class="col"><div class="card" style="width: 18rem;">
-  <img src="coca.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div></div>
-      
-      <div class="col"><div class="card" style="width: 18rem;">
-  <img src="coca.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div></div>
-    </div>
-  </div>
+    .categorias ul li a:hover {
+       color: gray;
+       font-size: 18px;
+    }
 
-  <!-- CARD COM CARROSSEL-->
+    .categorias ul ul{
+        width: 100%;
+        background: #fff;
+    }
 
-  <!-- <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="carousel-item">
-        <div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> -->
+    .categorias ul ul li  {
+     border-bottom: solid 1px #ccc;
+     padding: 5px 0 5px 15px;
+    }
 
+    .categorias ul ul li a {
+    color: #666; 
+    font-size: 12px;
+    }
 
+    .categorias ul ul li a:hover {
+    color: #5900AD; 
+    font-size: 14px;
+    }
 
+    #lado-direito{
+        width: 75%;
+        height: auto;
+        margin-top: 10px;
+        float: left;
+    }
 
+    .vitrine{
+        margin: 10px 0;
+        padding: 5px;
+        width: 100%;
+        height: auto;
+        border: solid 1px #ccc;
+    }
 
-  <!-- CARD COM COLUMNS-->
+    .vitrine h2 {
+     width: 99%;
+     height: 20px;
+     border: solid 1px #ccc;
+     padding: 2px;
+     background: #fbfbfb;
+    }
 
-  <!-- <div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
     
+    .vitrine ul {
+     width: 99%;
+     height: auto;
+     border: solid 1px #ccc;
+     padding: 2px;
+     background: #fbfbfb;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
 
-  
+    .vitrine li {
+       width: 150px;
+       margin: 2px;
+       padding-bottom: 10px;
+       text-align: center;
+       display: inline-block;
+       vertical-align: top;
+    }
 
+    .vitrine li a {
+        color: #333;
+        font-size: 14px;
+        text-decoration: none;
+    }
 
-       
+    .vitrine span {
+        color: #5900AD;
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
 
+    .vitrine input {
+        width: 92px;
+        height: 30px;
+        background: #5900AD;
+        color: #fff;
+        border-radius: 10px;
+        border: 0px;
+        margin-top: 10px;
+    }
 
+    .vitrine input:hover {
+        width: 96px;
+        height: 34px;
+        background: #8A4CC5;
+        color: #fff;
+    }
 
+    .titulo{
+        width: 100%;
+        height: 19px;
+        padding-left: 10px;
+        color: #fff;
+    }
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-
-  </body>
+</style>
+</head>
+<body>
+<div id="corpo-loja">
+<section class="banner"  style="background-color: gray; width: 100%; height: 260px;" >
+<p> Banner </p>
+</section>
+<section class="categorias">
+ <h2 class="fundo-roxo"> Categorias </h2>
+ <nav> 
+    <ul class="fundo-roxo">
+     <li> <a href="#" > Categoria 1 </a>
+        <ul>
+            <li> <a href="#" > produto 1 </a>
+            <li> <a href="#" > produto 2 </a>
+            <li> <a href="#" > produto 3 </a>
+        </ul>
+    </li>
+    <li> <a href="#" > Categoria 2 </a>
+        <ul>
+            <li> <a href="#" > produto 1 </a>
+            <li> <a href="#" > produto 2 </a>
+            <li> <a href="#" > produto 3 </a>
+        </ul>
+    </li>
+    <li> <a href="#" > Categoria 3 </a>
+        <ul>
+            <li> <a href="#" > produto 1 </a>
+            <li> <a href="#" > produto 2 </a>
+            <li> <a href="#" > produto 3 </a>
+        </ul>
+    </li>
+    </ul>
+ </nav>
+</section>
+<div id="lado-direito"> 
+    <h3 class="titulo fundo-roxo"> Lista de produtos </h3>
+<section class="vitrine">
+<h2> Categoria do produto </h2>
+<ul>
+    <li>
+        <a href="#">
+            <figure>
+            <img src="./imagens/bolos-festa.jpg" alt="" style="width: 110px; height: 110px;"/>
+            <figcaption> Bolo de festa </figcaption>
+            </figure>
+            <span>
+               R$ 50,00
+            </span>
+            <form action="">
+                <input type="submit" value="Comprar">
+            </form>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <figure>
+            <img src="./imagens/bolos-festa.jpg" alt="" style="width: 110px; height: 110px;"/>
+            <figcaption> Bolo de festa </figcaption>
+            </figure>
+            <span>
+               R$ 50,00
+            </span>
+            <form action="">
+            <input type="submit" value="Comprar">
+            </form>
+        </a>
+    </li>
+   <li>
+        <a href="#">
+            <figure>
+            <img src="./imagens/bolos-festa.jpg" alt="" style="width: 110px; height: 110px;"/>
+            <figcaption> Bolo de festa </figcaption>
+            </figure>
+            <span>
+               R$ 50,00
+            </span>
+            <form action="">
+            <input type="submit" value="Comprar">
+            </form>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <figure>
+            <img src="./imagens/bolos-festa.jpg" alt="" style="width: 110px; height: 110px;"/>
+            <figcaption> Bolo de festa </figcaption>
+            </figure>
+            <span>
+               R$ 50,00
+            </span>
+            <form action="">
+            <input type="submit" value="Comprar">
+            </form>
+        </a>
+    </li>
+   <li>
+        <a href="#">
+            <figure>
+            <img src="./imagens/bolos-festa.jpg" alt="" style="width: 110px; height: 110px;"/>
+            <figcaption> Bolo de festa </figcaption>
+            </figure>
+            <span>
+               R$ 50,00
+            </span>
+            <form action="">
+            <input type="submit" value="Comprar">
+            </form>
+        </a>
+    </li>
+</ul>
+</section>
+</div>
+</div>
+</body>
 </html>
