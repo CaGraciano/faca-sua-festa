@@ -17,7 +17,7 @@
         }
 
         .logo img {
-            width: 100px; /* Defina o tamanho apropriado para o logo */
+            width: 100px;
         }
 
         .search-bar {
@@ -27,22 +27,23 @@
         }
 
         .search-bar input {
+            width: 100%;
             border-radius: 20px;
             padding: 10px 20px;
-            padding-right: 50px; /* Espaço para o ícone */
+            padding-right: 40px;
         }
 
         .search-bar img {
             position: absolute;
+            right: 10px;
             top: 50%;
-            right: 10px; /* Espaço do lado direito */
             transform: translateY(-50%);
-            width: 24px; /* Defina o tamanho apropriado para o ícone */
+            width: 24px;
             cursor: pointer;
         }
 
         .header .list-inline-item img {
-            width: 24px; /* Defina o tamanho apropriado para os ícones */
+            width: 24px;
         }
 
         .header .list-inline-item {
@@ -50,7 +51,20 @@
         }
 
         .header .list-inline-item img:hover {
-            filter: brightness(0.8); /* Efeito de hover para os ícones */
+            filter: brightness(0.8);
+        }
+
+        .dropdown-menu {
+            background-color: #9900CC;
+            border: none;
+        }
+
+        .dropdown-item {
+            color: white;
+        }
+
+        .dropdown-item:hover {
+            background-color: #5900AD;
         }
     </style>
     <title>Cabeçalho</title>
@@ -73,22 +87,29 @@
                 <div class="col-md-4 text-right">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item"><img src="img/icones/user-2.png" alt="Entrar">&nbsp Entrar</li>
-                        <li class="list-inline-item"><img src="img/icones/porcentagem-2.png" alt="Promoções">&nbsp Promoções</li>
-                        <li class="list-inline-item"><img src="img/icones/shopping-3.png" alt="Carrinho de compras"></li>
+                        <li class="list-inline-item">&nbsp&nbsp<img src="img/icones/shopping-3.png" alt="Carrinho de compras"></li>
                     </ul>
                 </div>
             </div>
-            <hr></hr>
+            <hr>
             <div class="row mt-3">
                 <div class="col text-center">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><img src="img/icones/óculos-1.png" alt="Acessórios">&nbsp Acessórios</li>
-                        <li class="list-inline-item"><img src="img/icones/balões-1.png" alt="Balões">&nbsp Balões</li>
-                        <li class="list-inline-item"><img src="img/icones/decoração-1.png" alt="Decoração">&nbsp Decoração</li>
-                        <li class="list-inline-item"><img src="img/icones/copo-1.png" alt="Descartáveis">&nbsp Descartáveis</li>
-                        <li class="list-inline-item"><img src="img/icones/festa-1.png" alt="Festa">&nbsp Festa</li>
-                        <li class="list-inline-item"><img src="img/icones/tema-1.png" alt="Temas">&nbsp Temas</li>&nbsp&nbsp
-                        <li class="list-inline-item"><a href="#">Categorias <i class="fas fa-chevron-down"></i></a></li>
+                        <li class="list-inline-item dropdown">
+                            <a href="#" class="dropdown-toggle" id="categoriasDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias <i class="fas fa-chevron-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                                <a class="dropdown-item" href="#"><img src="img/icones/balões-1.png" alt="Balões">&nbsp Doces</a>
+                                <a class="dropdown-item" href="#"><img src="img/icones/tema-1.png" alt="Temas">&nbsp Salgados</a>
+                                <a class="dropdown-item" href="#"><img src="img/icones/tema-1.png" alt="Temas">&nbsp Bebidas</a>
+                                <a class="dropdown-item" href="#"><img src="img/icones/óculos-1.png" alt="Acessórios">&nbsp Acessórios</a>
+                                <a class="dropdown-item" href="#"><img src="img/icones/decoração-1.png" alt="Decoração">&nbsp Decoração</a>
+                                <a class="dropdown-item" href="#"><img src="img/icones/copo-1.png" alt="Descartáveis">&nbsp Descartáveis</a>
+                            </div>
+                        </li>
+                        <li class="list-inline-item"><img src="img/icones/estrela-2.png" alt="Acessórios">Favoritos</li>
+                        <li class="list-inline-item"><img src="img/icones/porcentagem-2.png" alt="Balões">Promoções</li>
+                        <li class="list-inline-item"><img src="img/icones/home.png" alt="Decoração">Locação</li>
+                        <li class="list-inline-item"><img src="img/icones/ponto-de-interrogação-2.png" alt="Descartáveis">Quem Somos</li>
                     </ul>
                 </div>
             </div>

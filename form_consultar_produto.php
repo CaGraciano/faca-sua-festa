@@ -6,12 +6,7 @@
   <title>Consultar Produtos</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body {
-      background-color: #8a2be2;
-      color: #fff;
-    }
     .container {
-      padding-top: 50px;
       text-align: center;
     }
     .table-container {
@@ -50,8 +45,8 @@
 
   <?php include 'cabecalho.php'; ?>
 
-  <div class="container">
-    <h1>Produtos Cadastrados</h1>
+  <div class="container"><br>
+    <h1>Produtos Cadastrados</h1><br>
     <div class="table-container">
       <table class="table table-striped table-hover">
         <thead>
@@ -66,7 +61,7 @@
           </tr>
         </thead>
         <tbody>
-          <!-- Exemplo de produto -->
+
           <tr>
             <td><img src="caminho-para-imagem.jpg" alt="Produto Exemplo" class="product-img"></td>
             <td>12345</td>
@@ -79,12 +74,50 @@
               <button class="btn btn-danger btn-sm">Excluir</button>
             </td>
           </tr>
-          <!-- Fim do exemplo de produto -->
-          <!-- Mais produtos serão listados aqui -->
+          <tr>
+            <td><img src="caminho-para-imagem.jpg" alt="Produto Exemplo" class="product-img"></td>
+            <td>12345</td>
+            <td>Produto Exemplo</td>
+            <td>Categoria Exemplo</td>
+            <td>R$ 99,99</td>
+            <td>10</td>
+            <td>
+              <button class="btn btn-primary btn-sm">Alterar</button>
+              <button class="btn btn-danger btn-sm">Excluir</button>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="caminho-para-imagem.jpg" alt="Produto Exemplo" class="product-img"></td>
+            <td>12345</td>
+            <td>Produto Exemplo</td>
+            <td>Categoria Exemplo</td>
+            <td>R$ 99,99</td>
+            <td>10</td>
+            <td>
+              <button class="btn btn-primary btn-sm">Alterar</button>
+              <button class="btn btn-danger btn-sm">Excluir</button>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="caminho-para-imagem.jpg" alt="Produto Exemplo" class="product-img"></td>
+            <td>12345</td>
+            <td>Produto Exemplo</td>
+            <td>Categoria Exemplo</td>
+            <td>R$ 99,99</td>
+            <td>10</td>
+            <td>
+              <button class="btn btn-primary btn-sm">Alterar</button>
+              <button class="btn btn-danger btn-sm">Excluir</button>
+            </td>
+          </tr>
+
         </tbody>
       </table>
     </div>
   </div>
+  
+  <?php include 'rodape.php'; ?>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

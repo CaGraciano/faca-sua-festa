@@ -6,12 +6,7 @@
   <title>Favoritos</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body {
-      background-color: #8a2be2;
-      color: #fff;
-    }
     .container {
-      padding-top: 50px;
       text-align: center;
     }
     .card {
@@ -46,25 +41,93 @@
 
   <?php include 'cabecalho.php'; ?>
 
-  <div class="container">
-    <h1>Favoritos</h1>
+  <div class="container"><br>
+    <h1>Favoritos</h1><br>
     <div class="row">
-      <!-- Exemplo de item favorito -->
+      <!-- Card 1 -->
       <div class="col-md-4">
         <div class="card">
           <img src="caminho-para-imagem.jpg" class="card-img-top" alt="Produto Exemplo">
           <div class="card-body">
-            <h5 class="card-title">Produto Exemplo</h5>
+            <h5 class="card-title">Produto Exemplo 1</h5>
             <p class="card-text">Categoria Exemplo</p>
             <p class="card-text">R$ 99,99</p>
             <button class="btn btn-danger btn-sm">Remover</button>
           </div>
         </div>
       </div>
-      <!-- Fim do exemplo de item favorito -->
-      <!-- Mais itens favoritos serão listados aqui -->
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="caminho-para-imagem.jpg" class="card-img-top" alt="Produto Exemplo">
+          <div class="card-body">
+            <h5 class="card-title">Produto Exemplo 2</h5>
+            <p class="card-text">Categoria Exemplo</p>
+            <p class="card-text">R$ 149,99</p>
+            <button class="btn btn-danger btn-sm">Remover</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="caminho-para-imagem.jpg" class="card-img-top" alt="Produto Exemplo">
+          <div class="card-body">
+            <h5 class="card-title">Produto Exemplo 3</h5>
+            <p class="card-text">Categoria Exemplo</p>
+            <p class="card-text">R$ 199,99</p>
+            <button class="btn btn-danger btn-sm">Remover</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="caminho-para-imagem.jpg" class="card-img-top" alt="Produto Exemplo">
+          <div class="card-body">
+            <h5 class="card-title">Produto Exemplo 4</h5>
+            <p class="card-text">Categoria Exemplo</p>
+            <p class="card-text">R$ 249,99</p>
+            <button class="btn btn-danger btn-sm">Remover</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="caminho-para-imagem.jpg" class="card-img-top" alt="Produto Exemplo">
+          <div class="card-body">
+            <h5 class="card-title">Produto Exemplo 5</h5>
+            <p class="card-text">Categoria Exemplo</p>
+            <p class="card-text">R$ 299,99</p>
+            <button class="btn btn-danger btn-sm">Remover</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="caminho-para-imagem.jpg" class="card-img-top" alt="Produto Exemplo">
+          <div class="card-body">
+            <h5 class="card-title">Produto Exemplo 6</h5>
+            <p class="card-text">Categoria Exemplo</p>
+            <p class="card-text">R$ 349,99</p>
+            <button class="btn btn-danger btn-sm">Remover</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <?php include 'rodape.php'; ?>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
